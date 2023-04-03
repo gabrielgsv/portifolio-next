@@ -2,6 +2,7 @@
 import React from "react";
 import { useRive, useStateMachineInput } from "@rive-app/react-canvas";
 import componentsStyle from "../style.module.css";
+import style from "./style.module.css";
 
 const About = () => {
   const { rive, RiveComponent } = useRive({
@@ -15,7 +16,7 @@ const About = () => {
   return (
     <>
       <div className={componentsStyle.container}>
-        <div>
+        <div className={style.about}>
           <p>
             Olá, bem vindo ao meu site. Sou desenvolvedor Front-end, utilizo
             ReactJs para desenvolver aplicações web.
