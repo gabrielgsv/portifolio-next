@@ -1,10 +1,17 @@
-import AnimatedHead from '@/components/AnimatedHead'
-import styles from './page.module.css'
+import About from "@/components/About";
+import Title from "@/components/Title";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <AnimatedHead/>      
-    </main>
-  )
+    <div className={roboto.className}>
+      <Title />
+      <About />
+    </div>
+  );
 }
