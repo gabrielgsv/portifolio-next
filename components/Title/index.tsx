@@ -5,7 +5,7 @@ import componentStyle from "../style.module.css";
 
 const Title = () => {
   return (
-    <div className={componentStyle.container} style={{ gap: 30 }}>
+    <div className={componentStyle.container} style={{ gap: 30, margin: 0 }}>
       <Image
         src="/perfil.jpg"
         alt="Foto perfil"
