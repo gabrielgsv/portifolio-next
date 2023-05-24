@@ -15,7 +15,7 @@ const AboutAnimation = () => {
     <>
       <RiveComponent
         onClick={() => ideaAnimation?.fire()}
-        style={{ width: 500, height: 500 }}
+        className="w-[500px] h-[500px] rounded-full"
       />
     </>
   );

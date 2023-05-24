@@ -1,19 +1,19 @@
+"use client";
 import About from "../components/About";
 import Projects from "../components/Projects";
+import ThemeButton from "../components/ThemeButton";
 import Title from "../components/Title";
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({
-  weight: "400",
-  subsets: ["latin"],
-});
+import useThemeStore from "../store/useThemeStore";
 
 export default function Home() {
+  const theme = useThemeStore((state) => state.theme);
+
   return (
-    <div className={roboto.className}>
+    <div data-theme={theme}>
+      <ThemeButton />
       <Title />
       <About />
-      <hr />
+      <div className="divider" />
       <Projects />
     </div>
   );

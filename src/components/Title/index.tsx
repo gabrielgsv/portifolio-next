@@ -1,19 +1,20 @@
 import Image from "next/image";
 import React from "react";
 
-import componentStyle from "../style.module.css";
-
 const Title = () => {
   return (
-    <div className={componentStyle.container} style={{ gap: 30, margin: 0 }}>
+    <div
+      className="flex items-center justify-center"
+      style={{ gap: 30, margin: 0 }}
+    >
       <Image
         src="/perfil.jpg"
         alt="Foto perfil"
-        style={{ borderRadius: 50 }}
+        className="rounded-full"
         width={100}
         height={100}
       />
-      <h1>Gabriel Soares Vilela</h1>
+      <h1 className="text-3xl font-bold">Gabriel Soares Vilela</h1>
     </div>
   );
 };

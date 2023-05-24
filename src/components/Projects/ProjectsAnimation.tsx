@@ -13,7 +13,7 @@ const ProjectsAnimation = () => {
   return (
     <>
       <Link href="https://github.com/gabrielgsv" target="_blank">
-        <RiveComponent style={{ width: 500, height: 500, borderRadius: 50 }} />
+        <RiveComponent className="w-[500px] h-[500px] rounded-full" />
       </Link>
     </>
   );

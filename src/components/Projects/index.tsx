@@ -1,8 +1,5 @@
-import React from "react";
-import componentsStyle from "../style.module.css";
-import style from "./style.module.css";
-import ProjectsAnimation from "./ProjectsAnimation";
 import ProjectIcon from "./ProjectIcon";
+import ProjectsAnimation from "./ProjectsAnimation";
 
 const Projects = () => {
   const icons = [
@@ -45,12 +42,14 @@ const Projects = () => {
   ];
   return (
     <>
-      <div className={componentsStyle.container}>
-        <div style={{ textAlign: "center" }}>
+      <div className="flex flex-wrap items-center justify-center">
+        <div className="text-center">
           <ProjectsAnimation />
-          <p style={{ marginTop: "-40px", fontSize: 25 }}>Clique aqui ☝️</p>
+          <p className="text-xl" style={{ marginTop: "-40px" }}>
+            Clique aqui ☝️
+          </p>
         </div>
-        <div className={style.container}>
+        <div className="flex flex-wrap items-center justify-center w-[500px] gap-4">
           <ProjectIcon icons={icons} />
         </div>
       </div>

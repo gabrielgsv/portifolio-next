@@ -18,20 +18,20 @@ const ProjectIcon = ({ icons }: ProjectIconProps) => {
       {icons.map((icon, index) => (
         <Link
           href={icon.url}
-          className={style.container}
+          className="w-[150px] h-[150px] flex flex-col items-center justify-center cursor-pointer"
           key={index}
           target="_blank"
         >
-          <div className={style.icon}>
+          <div className="w-[100px] h-[100px] rounded-full bg-white flex justify-center items-center border-solid border-2 border-black">
             <Image
               src={icon.src}
               alt={icon.alt}
               width={80}
               height={80}
-              className={style.image}
+              className="rounded-full"
             />
           </div>
-          <div className={style.name}>{icon.name}</div>
+          <div className="mt-2">{icon.name}</div>
         </Link>
       ))}
     </>
