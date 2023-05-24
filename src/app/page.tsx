@@ -1,5 +1,6 @@
-import About from "@/components/About";
-import Title from "@/components/Title";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Title from "../components/Title";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -12,6 +13,8 @@ export default function Home() {
     <div className={roboto.className}>
       <Title />
       <About />
+      <hr />
+      <Projects />
     </div>
   );
 }
