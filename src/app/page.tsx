@@ -1,6 +1,6 @@
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Title from "@/components/Title";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Title from "../components/Title";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
