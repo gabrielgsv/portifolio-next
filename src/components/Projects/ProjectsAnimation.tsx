@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRive } from "@rive-app/react-canvas";
+import Link from "next/link";
 
 const ProjectsAnimation = () => {
   const { RiveComponent } = useRive({
@@ -11,7 +12,9 @@ const ProjectsAnimation = () => {
 
   return (
     <>
-      <RiveComponent style={{ width: 500, height: 500, borderRadius: 50 }} />
+      <Link href="https://github.com/gabrielgsv" target="_blank">
+        <RiveComponent style={{ width: 500, height: 500, borderRadius: 50 }} />
+      </Link>
     </>
   );
 };
