@@ -9,15 +9,15 @@ const About = () => {
       <div className={componentsStyle.container}>
         <div className={style.about}>
           <p>
-            Olá, bem vindo ao meu site. Sou desenvolvedor Front-end, utilizo
-            ReactJs para desenvolver aplicações web.
+            Olá, seja bem-vindo(a) ao meu site. Sou desenvolvedor Front-end e
+            uso ReactJs para criar aplicações web.
           </p>
           <p>
-            Tenho experiência em Typescript, Redux, NextJs, Context-api, React
-            Hooks, entre outros.
+            Tenho experiência com Typescript, Redux, NextJs, Context-api, React
+            Hooks e outras ferramentas.
           </p>
           <p>
-            Eu gosto de aprender novas tecnologias e criar experiências
+            Sou apaixonado por aprender novas tecnologias e criar experiências
             incríveis na web.👋
           </p>
         </div>
