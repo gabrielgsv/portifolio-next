@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import style from "./projectIcon.module.css";
+import Link from "next/link";
 
 export interface ProjectIconProps {
   icons: {
     src: string;
     alt: string;
     name: string;
+    url: string;
   }[];
 }
 
@@ -14,7 +16,12 @@ const ProjectIcon = ({ icons }: ProjectIconProps) => {
   return (
     <>
       {icons.map((icon, index) => (
-        <div className={style.container} key={index}>
+        <Link
+          href={icon.url}
+          className={style.container}
+          key={index}
+          target="_blank"
+        >
           <div className={style.icon}>
             <Image
               src={icon.src}
@@ -25,7 +32,7 @@ const ProjectIcon = ({ icons }: ProjectIconProps) => {
             />
           </div>
           <div className={style.name}>{icon.name}</div>
-        </div>
+        </Link>
       ))}
     </>
   );
