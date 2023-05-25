@@ -1,10 +1,11 @@
 "use client";
+import useStore from "@/src/store/useStore";
 import useThemeStore from "../../store/useThemeStore";
-import MoonIcon from "./moonIcon";
-import SunIcon from "./sunIcon";
+import MoonIcon from "./MoonIcon";
+import SunIcon from "./SunIcon";
 
 const ThemeButton = () => {
-  const theme = useThemeStore((state) => state.theme);
+  const theme = useStore(useThemeStore, (state) => state.theme);
   const toggleTheme = useThemeStore((state) => state.toggleTheme);
 
   return (
