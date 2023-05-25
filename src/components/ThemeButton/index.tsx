@@ -13,7 +13,7 @@ const ThemeButton = () => {
       <label className="swap swap-rotate float-right">
         <input
           type="checkbox"
-          checked={theme === "emerald"}
+          checked={theme === "garden"}
           onChange={() => toggleTheme()}
         />
 

@@ -1,5 +1,6 @@
 "use client";
 import About from "../components/About";
+import Contacts from "../components/Contacts";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import ThemeButton from "../components/ThemeButton";
@@ -19,6 +20,8 @@ export default function Home() {
       <Projects />
       <div className="divider" />
       <Skills />
+      <div className="divider" />
+      <Contacts />
     </div>
   );
 }

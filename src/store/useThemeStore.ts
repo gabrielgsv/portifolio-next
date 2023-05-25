@@ -9,10 +9,10 @@ interface ThemeStore {
 const useThemeStore = create<ThemeStore>()(
   persist(
     (set, get) => ({
-      theme: "emerald",
+      theme: "garden",
       toggleTheme: () =>
         set((state) => ({
-          theme: state.theme === "emerald" ? "halloween" : "emerald",
+          theme: state.theme === "garden" ? "halloween" : "garden",
         })),
     }),
     {
