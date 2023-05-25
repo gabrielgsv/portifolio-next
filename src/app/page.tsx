@@ -9,7 +9,7 @@ export default function Home() {
   const theme = useThemeStore((state) => state.theme);
 
   return (
-    <div data-theme={theme}>
+    <div data-theme={theme} className="p-8">
       <ThemeButton />
       <Title />
       <About />
