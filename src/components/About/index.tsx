@@ -1,25 +1,23 @@
 import React from "react";
-import componentsStyle from "../style.module.css";
-import style from "./style.module.css";
 import AboutAnimation from "./AboutAnimation";
 
 const About = () => {
   return (
     <>
-      <div className={componentsStyle.container}>
-        <div className={style.about}>
-          <p>
-            Olá, seja bem-vindo(a) ao meu site. Sou desenvolvedor Front-end e
-            uso ReactJs para criar aplicações web.
+      <div className="flex flex-wrap items-center justify-center">
+        <div className="text-xl w-fit">
+          <p>Olá, seja bem-vindo(a) ao meu site.</p>
+          <p className="mt-4">
+            Sou desenvolvedor Front-end e uso ReactJs para criar aplicações web.
           </p>
-          <p>
-            Tenho experiência com Typescript, Redux, NextJs, Context-api, React
-            Hooks e outras ferramentas.
+          <p className="mt-4">
+            Tenho experiência com Typescript, Redux, NextJs, Context-api,
           </p>
-          <p>
+          <p>React Hooks e outras ferramentas.</p>
+          <p className="mt-4">
             Sou apaixonado por aprender novas tecnologias e criar experiências
-            incríveis na web.👋
           </p>
+          <p>incríveis na web.👋</p>
         </div>
 
         <div>
