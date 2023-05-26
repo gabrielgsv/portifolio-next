@@ -10,7 +10,7 @@ const SuperManAnimation = () => {
   });
   return (
     <>
-      <RiveComponent className="w-[440px] h-[440px] rounded-full" />
+      <RiveComponent className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full" />
     </>
   );
 };

@@ -13,7 +13,7 @@ const ProjectsAnimation = () => {
   return (
     <>
       <Link href="https://github.com/gabrielgsv" target="_blank">
-        <RiveComponent className="w-[500px] h-[500px] rounded-full" />
+        <RiveComponent className="w-[300px] h-[300px] mb-2 md:w-[500px] md:h-[500px] rounded-full" />
       </Link>
     </>
   );

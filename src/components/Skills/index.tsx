@@ -12,8 +12,8 @@ const Skills = () => {
 
   return (
     <>
-      <div className="flex flex-wrap items-center justify-center gap-20">
-        <div className="text-[20pt] w-fit" ref={ref}>
+      <div className="flex flex-wrap-reverse items-center justify-center gap-5 md:gap-20">
+        <div className="md:text-[20pt] w-fit" ref={ref}>
           <div className="flex items-center justify-between gap-5">
             ReactJs <Stars number={5} isVisible={isVisible} />
           </div>
