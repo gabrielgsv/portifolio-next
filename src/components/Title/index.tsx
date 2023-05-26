@@ -4,7 +4,7 @@ import React from "react";
 const Title = () => {
   return (
     <div
-      className="flex items-center justify-center"
+      className="flex flex-col items-center justify-center"
       style={{ gap: 30, margin: 0 }}
     >
       <Image
@@ -14,7 +14,7 @@ const Title = () => {
         width={100}
         height={100}
       />
-      <h1 className="text-3xl font-bold">Gabriel Soares Vilela</h1>
+      <h1 className="text-xl md:text-3xl font-bold">Gabriel Soares Vilela</h1>
     </div>
   );
 };

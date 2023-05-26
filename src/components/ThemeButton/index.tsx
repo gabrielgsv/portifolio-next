@@ -10,7 +10,7 @@ const ThemeButton = () => {
 
   return (
     <>
-      <label className="swap swap-rotate float-right">
+      <label className="swap swap-rotate absolute top-4 right-4 md:top-12 md:right-28">
         <input
           type="checkbox"
           checked={theme === "garden"}

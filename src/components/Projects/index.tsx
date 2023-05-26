@@ -49,7 +49,7 @@ const Projects = () => {
             Clique aqui ☝️
           </p>
         </div>
-        <div className="flex flex-wrap items-center justify-center w-[500px] gap-4">
+        <div className="flex flex-wrap items-center justify-center md:w-[500px] gap-4 mt-8">
           <ProjectIcon icons={icons} />
         </div>
       </div>

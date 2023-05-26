@@ -33,7 +33,9 @@ const Stars = ({ number, isVisible }: Props) => {
     }
   }, [isVisible]);
 
-  return <RiveComponent className="w-[300px] h-[75px] rounded-full" />;
+  return (
+    <RiveComponent className="w-[60%] md:w-[250px] h-[75px] rounded-full" />
+  );
 };
 
 export default Stars;
