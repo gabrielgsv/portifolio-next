@@ -15,7 +15,7 @@ const AboutAnimation = () => {
     <>
       <RiveComponent
         onClick={() => ideaAnimation?.fire()}
-        className="w-[500px] h-[500px] rounded-full"
+        className="w-[300px] h-[300px] mb-2 md:w-[500px] md:h-[500px] mt-[-30px] rounded-full"
       />
     </>
   );

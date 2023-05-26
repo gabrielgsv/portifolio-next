@@ -4,8 +4,8 @@ import AboutAnimation from "./AboutAnimation";
 const About = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center justify-center">
-        <div className="text-xl w-fit">
+      <div className="flex flex-wrap-reverse items-center justify-center">
+        <div className="md:text-xl w-fit text-justify">
           <p>Olá, seja bem-vindo(a) ao meu site.</p>
           <p className="mt-4">
             Sou desenvolvedor Front-end e uso ReactJs para criar aplicações web.
