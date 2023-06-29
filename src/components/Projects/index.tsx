@@ -1,55 +1,29 @@
 import ProjectIcon from "./ProjectIcon";
 import ProjectsAnimation from "./ProjectsAnimation";
+import projectList from "./projectList.json";
+
+export type ProjectIconType = {
+  src: string;
+  alt: string;
+  name: string;
+  url: string;
+  github: string;
+  description: string;
+};
 
 const Projects = () => {
-  const icons = [
-    {
-      src: "/agriculture.png",
-      alt: "Agriculture icon",
-      name: "Agriculture",
-      url: "https://agriculture-gabrielsoaresvilela.vercel.app",
-    },
-    {
-      src: "/ecommerce.png",
-      alt: "Ecommerce icon",
-      name: "Ecommerce",
-      url: "https://ecommerce-org.vercel.app/",
-    },
-    {
-      src: "/planet.png",
-      alt: "ThreeJs Planet icon",
-      name: "ThreeJs Planet",
-      url: "https://threejs-earth.vercel.app/",
-    },
-    {
-      src: "/pet.png",
-      alt: "Adote um Pet icon",
-      name: "Adote um Pet",
-      url: "https://adote-um-pet-web.vercel.app/",
-    },
-    {
-      src: "/drink.png",
-      alt: "Drinks  icon",
-      name: "Drinks ",
-      url: "https://all-of-the-drinks.vercel.app/",
-    },
-    {
-      src: "/marvel.png",
-      alt: "Marvel Wiki icon",
-      name: "Marvel Wiki",
-      url: "https://marvel-wiki.vercel.app/",
-    },
-  ];
+  const icons: ProjectIconType[] = projectList;
   return (
     <>
-      <div className="flex flex-wrap items-center justify-center">
+      <div className="flex flex-col items-center justify-center gap-10">
         <div className="text-center">
           <ProjectsAnimation />
           <p className="text-xl" style={{ marginTop: "-40px" }}>
             Clique aqui ☝️
           </p>
         </div>
-        <div className="flex flex-wrap items-center justify-center md:w-[500px] gap-4 mt-8">
+
+        <div className="flex flex-wrap justify-center items-stretch gap-6 my-8">
           <ProjectIcon icons={icons} />
         </div>
       </div>
