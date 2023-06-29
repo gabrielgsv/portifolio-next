@@ -1,0 +1,50 @@
+[
+  {
+    "src": "/agriculture.png",
+    "alt": "Agriculture icon",
+    "name": "Agriculture",
+    "url": "https://agriculture-gabrielsoaresvilela.vercel.app",
+    "github": "https://github.com/gabrielgsv/agriculture",
+    "description": "Sistema de gerenciamento de fazendas que permite o controle de culturas e terras, além de fornecer informações sobre a área plantada e disponível. Para teste: ( usuário: user@email.com, senha: user123 )"
+  },
+  {
+    "src": "/ecommerce.png",
+    "alt": "Ecommerce icon",
+    "name": "Ecommerce",
+    "url": "https://ecommerce-org.vercel.app/",
+    "github": "https://github.com/gabrielgsv/ecommerce",
+    "description": "Layout de ecommerce com carrinho de compras integrado."
+  },
+  {
+    "src": "/planet.png",
+    "alt": "ThreeJs Planet icon",
+    "name": "ThreeJs Planet",
+    "url": "https://threejs-earth.vercel.app/",
+    "github": "https://github.com/gabrielgsv/threejs-earth",
+    "description": "Projeto de visualização de planetas utilizando ThreeJs."
+  },
+  {
+    "src": "/pet.png",
+    "alt": "Adote um Pet icon",
+    "name": "Adote um Pet",
+    "url": "https://adote-um-pet-web.vercel.app/",
+    "github": "https://github.com/gabrielgsv/adote-um-pet-web",
+    "description": "Sistema de gerenciamento de adoção de pets que permite buscas por cidade."
+  },
+  {
+    "src": "/marvel.png",
+    "alt": "Marvel Wiki icon",
+    "name": "Marvel Wiki",
+    "url": "https://marvel-wiki.vercel.app/",
+    "github": "https://github.com/gabrielgsv/marvel-wiki",
+    "description": "Site com informações sobre personagens e quadrinhos da Marvel que utiliza a API da própria Marvel."
+  },
+  {
+    "src": "/ei-nerds.png",
+    "alt": "Ei Nerds icon",
+    "name": "Ei Nerds",
+    "url": "https://play.google.com/store/apps/details?id=com.gabrielgsv.einerds",
+    "github": "https://github.com/gabrielgsv/ei-nerds",
+    "description": "App mobile de busca de filmes e séries que utiliza a API TheMovieDb."
+  }
+]
