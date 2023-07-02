@@ -1,11 +1,27 @@
 [
   {
+    "src": "/ei-nerds.png",
+    "alt": "Ei Nerds icon",
+    "name": "Ei Nerds",
+    "url": "https://play.google.com/store/apps/details?id=com.gabrielgsv.einerds",
+    "github": "https://github.com/gabrielgsv/ei-nerds",
+    "description": "App mobile de busca de filmes e séries que utiliza a API TheMovieDb."
+  },
+  {
     "src": "/agriculture.png",
     "alt": "Agriculture icon",
     "name": "Agriculture",
     "url": "https://agriculture-gabrielsoaresvilela.vercel.app",
     "github": "https://github.com/gabrielgsv/agriculture",
     "description": "Sistema de gerenciamento de fazendas que permite o controle de culturas e terras, além de fornecer informações sobre a área plantada e disponível. Para teste: ( usuário: user@email.com, senha: user123 )"
+  },
+  {
+    "src": "/agenda.png",
+    "alt": "Agenda icon",
+    "name": "Agenda",
+    "url": "https://agenda-gsv.vercel.app/",
+    "github": "https://github.com/gabrielgsv/agenda-front",
+    "description": "Aplicação web para agendamento de tarefas. Usando Vite no front e NestJs no back."
   },
   {
     "src": "/ecommerce.png",
@@ -38,13 +54,5 @@
     "url": "https://marvel-wiki.vercel.app/",
     "github": "https://github.com/gabrielgsv/marvel-wiki",
     "description": "Site com informações sobre personagens e quadrinhos da Marvel que utiliza a API da própria Marvel."
-  },
-  {
-    "src": "/ei-nerds.png",
-    "alt": "Ei Nerds icon",
-    "name": "Ei Nerds",
-    "url": "https://play.google.com/store/apps/details?id=com.gabrielgsv.einerds",
-    "github": "https://github.com/gabrielgsv/ei-nerds",
-    "description": "App mobile de busca de filmes e séries que utiliza a API TheMovieDb."
   }
 ]
